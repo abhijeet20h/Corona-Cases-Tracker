@@ -1,0 +1,133 @@
+/* .card_name {
+  font-size: 32px;
+  line-height: 0.9;
+  font-weight: 700;
+}
+.card_small {
+  font-size: 80px;
+  background-color: yellow;
+}
+.card{
+  width: 400px;
+}
+
+@media (max-width: 700px) {
+  .card {
+    width: 100%;
+    height: 290px;
+    margin-right: 0;
+    float: none;
+  }
+} */
+
+/* body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+} */
+/* 
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+} */
+* {
+  padding: 0;
+  margin: 0;
+  background-color: #02191f;
+}
+.heading-style {
+  padding: 30px 0px;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 30px;
+  color: #868686;
+  background-color: #fff;
+  margin-bottom: 30px;
+  
+}
+.heading{
+  font-size: 14px;
+  color: white;
+
+}
+.card {
+  margin: 6%;
+  background-color: rgb(0, 0, 0);
+  width: 22%;
+  border-radius: 12px;
+  width: 80%;
+  height: 150px;
+
+}
+.card:hover {
+  box-shadow: 0px 3px 10px rgb(66, 63, 63);
+  transform: scale(1.05, 1.05);
+}
+.card_img {
+  width: 100%;
+  height: 235px;
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+}
+.card_info {
+  font-size: 1.5rem;
+  margin-bottom: 30px;
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+  padding: 16px 24px 24px 24px;
+}
+.card_category {
+  text-transform: uppercase;
+  font-size: 13px;
+  letter-spacing: 2px;
+  font-weight: 500;
+  color: #ffffff;
+}
+.card_title {
+  margin-top: 5px;
+  margin-bottom: 10px;
+  text-transform: capitalize;
+  color: #ffffff;
+  font-weight: 800;
+  text-align: center;
+}
+.card_info h3{
+  font-weight: 800;
+  text-shadow: 0 0 3px #FF0000, 0 0 5px #0000FF;
+  font-size: 45px;
+
+}
+button {
+  padding: 5px 9px;
+  text-transform: uppercase;
+  font-size: 13px;
+  letter-spacing: 2px;
+  font-weight: 500;
+  color: #ffffff;
+  outline: none;
+  background-color: #fff;
+  cursor: pointer;
+}
+
+.c1{
+  background-color: rgb(65, 6, 26);
+}
+.c2{
+background-color: rgb(16, 156, 4);
+}
+.c3{
+  background-color: rgb(214, 211, 0);
+
+}.c4{
+  background-color: rgb(255, 79, 9);
+
+}.c5{
+  background-color: rgb(141, 114, 57);
+
+}.c6{
+  background-color: rgb(11, 38, 63);
+
+}
